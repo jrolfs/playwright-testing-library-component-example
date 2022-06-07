@@ -1,0 +1,13 @@
+# See: https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/

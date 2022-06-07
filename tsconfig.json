@@ -1,0 +1,7 @@
+{
+  "extends": "@hover/javascript",
+  "include": ["src", "test", "playwright"],
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
